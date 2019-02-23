@@ -22,7 +22,6 @@ class Accordion extends React.Component {
   }
 
   render() {
-    const calculator_name = this.props.calculator_name;
     const name = this.props.name;
     const plural_form = this.props.plural_form;
     const units = this.props.units;
@@ -33,7 +32,7 @@ class Accordion extends React.Component {
     let illustration_dd;
     if (units[name].illustration) {
       illustration_dt = <dt>Illustration:</dt>;
-      illustration_dd = <dd><img src={units[name].illustration} /></dd>;
+      illustration_dd = <dd><img src={units[name].illustration} alt="" /></dd>;
     }
 
     return (
@@ -49,7 +48,7 @@ class Accordion extends React.Component {
             {illustration_dt}
             {illustration_dd}
             <dt>More Info:</dt>
-            <dd><a href={units[name].wikipedia_page} target="_blank">Wikipedia</a></dd>
+            <dd><a href={units[name].wikipedia_page} rel="noopener noreferrer" target="_blank">Wikipedia</a></dd>
           </dl>
         </div>
       </div>

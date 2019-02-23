@@ -141,7 +141,7 @@ const fakeDataFeed = {
             calculation: function(arcsec){return arcsec / 1.296e+6;}
           }
         },
-        symbol: '\" or arcsec',
+        symbol: '" or arcsec',
         definition: 'A derived unit of the degree. It is defined as 1/3,600 degree or 1/60 arc minute.',
         illustration: '',
         wikipedia_page: 'https://en.wikipedia.org/wiki/minute_and_second_of_arc'
