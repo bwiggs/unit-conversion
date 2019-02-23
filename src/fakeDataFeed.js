@@ -6,7 +6,6 @@ import area_icon from './unit-conversion-area-icon.svg';
   import hectare_illustration from './unit-conversion-area-illustration-hectare.png';
 import astronomy_icon from './unit-conversion-astronomy-icon.svg';
   import astronomical_unit_illustration from './unit-conversion-astronomy-illustration-astronomical-unit.png';
-  import parsec_illustration from './unit-conversion-astronomy-illustration-parsec.png';
 import energy_icon from './unit-conversion-energy-icon.svg';
 import force_icon from './unit-conversion-force-icon.svg';
   import newton_illustration from './unit-conversion-force-illustration-newton.png';
@@ -626,7 +625,7 @@ const fakeDataFeed = {
         },
         symbol: 'pc',
         definition: 'The distance at which 1 astronomical unit subtends an angle of 1 arc second.',
-        illustration: parsec_illustration,
+        illustration: '',
         wikipedia_page: 'https://en.wikipedia.org/wiki/parsec'
       }
     }
